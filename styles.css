@@ -1,0 +1,24 @@
+a
+{
+    color: red;
+}
+
+a:hover
+{
+    color: blue;
+    text-shadow: black 0px 0px 20px;
+}
+
+body
+{
+    background-image: url("engineering_building.png");
+    background-size: 100%;
+}
+
+.content
+{
+    position: absolute;
+    left: 46%;
+    top: 25%;
+    text-align: center;
+}
