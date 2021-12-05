@@ -24,4 +24,5 @@ echo "<table border='1' style='font-size:20pt'>";
         }
     }
 echo "</table>";
+$mysqli.close();
 ?>
