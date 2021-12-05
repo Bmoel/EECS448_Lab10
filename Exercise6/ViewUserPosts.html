@@ -19,7 +19,6 @@
 
             $query = "SELECT `user_id` FROM `Users`";
             $stmt = $mysqli->query($query);
-            $user_arr = array();
             while($row = $stmt->fetch_assoc()) {
                 $val = $row["user_id"];
                 echo "<option value='" . $val . "'> " . $val . " </option>";
